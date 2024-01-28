@@ -18,7 +18,7 @@ public class Program
             string? line = null;
             while((line = reader.ReadLine()) != null)
             {
-                if (line.StartsWith('v'))
+                if (line.StartsWith("v "))
                 {
                     var ps = line[2..].Split(' ');
                     if (ps.Length ==3)
@@ -31,6 +31,20 @@ public class Program
                         double r = Math.Abs(x / round);
                         double g = Math.Abs(y / round);
                         double b = Math.Abs(z / round);
+
+                        //if (y > 0)
+                        //{
+                        //    r = 1.0;
+                        //    g = 0;
+                        //    b = 0;
+                        //}
+                        //else
+                        //{
+                        //    r = 1.0;
+                        //    g = 1.0;
+                        //    b = 0.0;
+                        //}
+
 
                         line += $" {r:0.000000} {g:0.000000} {b:0.000000}";
                     }

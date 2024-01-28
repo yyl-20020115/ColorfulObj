@@ -2,7 +2,7 @@
   "profiles": {
     "ColorfulObj": {
       "commandName": "Project",
-      "commandLineArgs": "C:\\Working\\SFM-WORKS\\pig.obj"
+      "commandLineArgs": "C:\\Working\\SFM-WORKS\\shuttle.obj"
     }
   }
 }
