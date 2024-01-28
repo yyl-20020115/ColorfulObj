@@ -32,20 +32,6 @@ public class Program
                         double g = Math.Abs(y / round);
                         double b = Math.Abs(z / round);
 
-                        //if (y > 0)
-                        //{
-                        //    r = 1.0;
-                        //    g = 0;
-                        //    b = 0;
-                        //}
-                        //else
-                        //{
-                        //    r = 1.0;
-                        //    g = 1.0;
-                        //    b = 0.0;
-                        //}
-
-
                         line += $" {r:0.000000} {g:0.000000} {b:0.000000}";
                     }
 
