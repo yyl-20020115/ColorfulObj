@@ -20,7 +20,7 @@ public class Program
             {
                 if (line.StartsWith("v "))
                 {
-                    var ps = line[2..].Split(' ');
+                    var ps = line[2..].Trim().Split(' ');
                     if (ps.Length ==3)
                     {
                         if (!double.TryParse(ps[0], out var x)) x = 1.0;
