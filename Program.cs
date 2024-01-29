@@ -6,7 +6,6 @@ public class Program
     {
         if (args.Length > 0)
         {
-            var rand = new Random();
             var path = args[0];
             var output_file =
                 Path.Combine(Path.GetDirectoryName(path)??"",
